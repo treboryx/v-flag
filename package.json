@@ -1,0 +1,40 @@
+{
+  "name": "v-flag",
+  "version": "0.0.1",
+  "description": "High quality flag component for Vue",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "release": "release-it"
+  },
+  "keywords": [
+    "vue",
+    "flag",
+    "flag component",
+    "flag svg",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treboryx/v-flag.git"
+  },
+  "author": "treboryx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treboryx/v-flag/issues"
+  },
+  "homepage": "https://github.com/treboryx/v-flag#readme",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.31",
+    "release-it": "^14.12.4",
+    "rollup": "^2.67.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.2.31"
+  }
+}
