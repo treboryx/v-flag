@@ -1,5 +1,7 @@
 # v-flag
 
+[![NPM](https://nodei.co/npm/v-flag.png)](https://nodei.co/npm/v-flag/)
+
 v-flag is a very simple svg flag component
 
 ## Installation
